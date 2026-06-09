@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Pixelqub-Tuto-Fr",
+		"description": "Pixelqub-Tuto-Fr Behavior Pack",
+		"uuid": "d2143d35-3725-9766-28fe-5118a295ccb5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+/* 	"metadata": {
+		"authors": ["Ctephanz"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	}, */
+	"modules": [
+	{
+	    "description": "Behavior",
+	   "version": [1, 0, 0],
+	     "uuid": "f6031653-53f2-7d3a-e8d9-5bd39c28c9a9",
+	    "type": "data"
+	},
+	{
+        "type": "script",
+        "language": "javascript",
+        "uuid": "5ee16f92-15c4-4a20-a365-fd37f33ff940",
+        "version": [1, 0, 0],
+        "entry": "scripts/main.js"
+    }
+	],
+	"dependencies": [
+	{
+			"uuid": "d007f6c1-f6bd-9c1b-fb1f-183dbd8bf729",
+			"version": [1, 0, 0]
+		},
+	    {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        }
+		
+	]
+}
